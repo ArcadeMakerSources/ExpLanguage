@@ -267,8 +267,8 @@ class Date (year, month, day, hour, minute)
    print "Setup is complete (" + Date.now().toString() + ").\n"
    ```
 3. Add program.cs looks like this:
-   ```
-   using Exp;
+```
+using Exp;
 
 public static class Program
 {
@@ -299,7 +299,7 @@ public static class Program
         }
     }
 }
-   ```
+```
 
 
 
