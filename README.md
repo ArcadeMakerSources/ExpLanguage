@@ -2,9 +2,10 @@
 A new programming language project
 
 To run a console API for running scripts:
+
 1. save the basic types codes in a file, for example system.txt. The code for this file is:
 
-```
+```csharp
 namespace system
 
 class string (const chars private basearray) 
@@ -261,13 +262,15 @@ class Date (year, month, day, hour, minute)
     }
 }
 ```
+
 2. save the code you want to run in another file, e.g. debug.txt. This file must start with `#include system`. For example:
-   ```
+   ```cs
    #include system
    print "Setup is complete (" + Date.now().toString() + ").\n"
    ```
+
 3. Add program.cs looks like this:
-```
+```cs
 using Exp;
 
 public static class Program
